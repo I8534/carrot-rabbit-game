@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+.backimg {
+  width: 100%;
+  height: 1440px;
+  background-image: url(./img/82975131-시골에있는-배경-농장.webp);
+  background-size: cover;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start {
+  width: 100px;
+  height: 80px;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  margin-top: 20px;
+  border: 5px solid black;
+}
+
+.start:hover {
+  transform: scale(1.25);
+}
+
+.time {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 20px;
+  border: 5px solid black;
+}
+
+.counting {
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.rabbit { 
+  width: 150px;
+  height: 150px;
+  background-image: url(./img/IMG_3266-removebg-preview.png);
+  background-size: cover;
+  position: absolute;
+
+}
+
+.carrot {
+  width: 150px;
+  height: 150px;
+  background-image: url(./img/fresh-single-carrot-vegetable-illustration-free-png-removebg-preview.png);
+  background-size: cover;
+  position: absolute;
+}
+
